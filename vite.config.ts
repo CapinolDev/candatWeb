@@ -1,10 +1,11 @@
+
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({ 
-  
-  base: './',
+
+  base: '/candatWeb/', 
   
   plugins: [
     react(),
@@ -12,8 +13,8 @@ export default defineConfig({
   ],
   
   build: {
-    
-    outDir: './docs', 
+
+    outDir: './docs',
     emptyOutDir: true,
   },
 })
