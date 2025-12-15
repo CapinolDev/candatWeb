@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({ 
   
-  base: '/candatWeb/',
+  base: './',
   
   plugins: [
     react(),
@@ -12,8 +12,8 @@ export default defineConfig({
   ],
   
   build: {
-  
-    outDir: './docs',
+    
+    outDir: './docs', 
     emptyOutDir: true,
   },
 })
